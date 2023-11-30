@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////////////////////////////////
+//                       Command Interface State Machine                      //
+////////////////////////////////////////////////////////////////////////////////
 typedef enum {  CMD_STATE_READY=0,          // Default State for the cmd interface
                 CMD_STATE_PENDING,          // cmd entry started but not completed
                 CMD_STATE_AT_RECIEVED,      // An AT command was entred 
