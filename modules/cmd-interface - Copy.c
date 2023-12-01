@@ -232,7 +232,7 @@ cmdStatusEnum cmdStateExecuteCmd(void){
         case CMD_I:     // Interface Identification
             cmdI();
             break;
-        case CMD_RV:    // Reav Voltage
+        case CMD_RV:    // Read Voltage
             cmdRV();
             break;
         case CMD_SIM:   // Simulation Mode
